@@ -1,0 +1,8 @@
+Background {   
+  frontUrl ["ciel_01.jpg"] 
+  backUrl ["ciel_03.jpg"]  
+  rightUrl ["ciel_02.jpg"]  
+  leftUrl ["ciel_04.jpg"]  
+  topUrl ["ciel_haut.jpg"] 
+  bottomUrl ["bas.jpg"] 
+}   
