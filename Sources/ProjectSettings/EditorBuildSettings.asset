@@ -6,4 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Celerity1.unity
+  - enabled: 1
+    path: Assets/Celerity2.unity
+  - enabled: 1
     path: Assets/DeptInfo.unity

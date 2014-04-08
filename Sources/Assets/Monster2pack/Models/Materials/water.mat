@@ -107,12 +107,12 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: .501960814}
-      data:
-        first:
           name: _TintColor
         second: {r: .755736232, g: .880596995, b: .833446801, a: .501960814}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: .501960814}
       data:
         first:
           name: _ReflectColor
