@@ -22,7 +22,7 @@ public class InfoScript : MonoBehaviour {
 			GUI.Box (new Rect (0,0,200,50), "Vitesse de la lumiere : " +   TRR.SPEEDOFLIGHT);
 			GUI.Label(new Rect(20,25,200,50), "Augmenter/reduire avec +/-");
 		} else {
-			GUI.Box (new Rect (0,0,200,50), "Nombre d'ennemis restants : "+ ennemisRestants);
+			GUI.Box (new Rect (0,0,200,50), "Nombre ennemis restants : "+ ennemisRestants);
 			GUI.Label(new Rect(20,25,200,50), "Vitesse de la lumiere : " + TRR.SPEEDOFLIGHT);
 		}
 		//What's our velocity?

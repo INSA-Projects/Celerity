@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3d7afce4baec61d4ca343a63ee8957b9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - H1: {fileID: 2800000, guid: 9052e1e1eba0af44182200f8d6dd67b1, type: 3}
+  - H2: {fileID: 2800000, guid: 69e26af072a60ac4c8e72bf1589b89f1, type: 3}
+  - H3: {fileID: 2800000, guid: 91b31950fe033034ea22cf2c6d8af602, type: 3}
+  - H4: {fileID: 2800000, guid: d3b10579a8c368940941fc12da524a8a, type: 3}
+  - H5: {fileID: 2800000, guid: 79441e469ccba3d4fbf79a2ec49e31b6, type: 3}
+  - HpBarTexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

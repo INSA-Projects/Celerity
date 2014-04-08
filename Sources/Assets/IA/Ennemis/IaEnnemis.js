@@ -15,18 +15,14 @@ var detecteJoueur = false;
 var shootRange = 15.0;
 var dontComeCloserRange = 5.0;
 var rotationSpeed = 5.0;
-var maxHealth = 5;
-var curHealth = 5;
+var maxHealth = 3;
+var curHealth = 3;
 var healthBarLengh;
 var adj =-1;
 var fire : Transform;
-/*var Hbar = Transform;*/
-
+var Hbar = Transform;
 
 var tagArme = "Arme";
-
-/*apparition explosion*/
-var prefab : Transform;
 
 function Awake() {
 	pathPoint[0] = transform;
@@ -44,7 +40,7 @@ function Update() {
 }
 
 
-/*Action quand l'ennemi voit le joueur*/
+
 
 function Mouvement() {
 	if (detecteJoueur) {
@@ -208,9 +204,6 @@ function OnCollisionEnter(other :Collision)
 		
 		if(curHealth < 0) {
 			KillPlayer();
-			for (var i : int = 0;i < 10; i++) {
-				Instantiate (prefab, Vector3(i * 2.0, 0, 0), Quaternion.identity);
-			}
 		}
 		if(curHealth > maxHealth){
 			curHealth = maxHealth;

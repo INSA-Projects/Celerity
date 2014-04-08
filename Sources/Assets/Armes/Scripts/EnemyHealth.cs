@@ -1,4 +1,5 @@
-/*using UnityEngine;
+using UnityEngine;
+
 using System.Collections;
 
 
@@ -37,7 +38,7 @@ public class EnemyHealth : MonoBehaviour {
 	}*/
 	
 	
-/*	
+	
 	public void AddjustCurrentHealth(int adj) {
 		curHealth += adj;
 		
@@ -62,7 +63,7 @@ public class EnemyHealth : MonoBehaviour {
 			KillPlayer ();
 			/*Debug.DrawRay(contact.point, contact.normal, Color.white);*/
 	
-		/*}
+		}
 		/*if (other.gameObject.tag == tagArme) {
 			/*KillPlayer();*/
 			/*curHealth -= 1;
@@ -82,8 +83,8 @@ public class EnemyHealth : MonoBehaviour {
 			
 		}*/
 		
-/*	}
-/*	
+	}
+	
 	public void KillPlayer(){
 		Destroy(gameObject);
 		CompteurDeKills.nbKills ++;
@@ -93,8 +94,7 @@ public class EnemyHealth : MonoBehaviour {
 		/*GUI.DrawTexture(Rect(10,10,60,60), HpBarTexture, ScaleMode.ScaleToFit, true, 10.0f);*/
 		/*GUI.Box(new Rect(10, 40, healthBarLengh, 20), curHealth + "/" + maxHealth);*/
 		/*Graphics.DrawTexture(Rect(10, 10, 100, 100), HpBarTexture);*/
-	/*	GUI.DrawTexture( new Rect(100, 40, 100 , 25), HpTextureBar);
+		GUI.DrawTexture( new Rect(100, 40, 100 /*lg*/, 25), HpTextureBar);
 	}
 	
 }
-*/
