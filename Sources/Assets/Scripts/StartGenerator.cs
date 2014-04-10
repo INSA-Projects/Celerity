@@ -14,12 +14,20 @@ public class StartGenerator : MonoBehaviour {
 	
 	void OnTriggerStay (Collider col){
 		if (col.gameObject.tag == "Player") {
+			Debug.Log("Activer : E");
 			if ((Input.GetKeyDown ("e")) || (wii != null && wii.b_C)) {
 				audio.PlayOneShot(clickButton);
+				generator.animation.Play();
+				generator.audio.Play();
+				Invoke("desactivate", clickButton.length);
 			}
 		}
 	}
-	
+
+	void desactivate () {
+		gameObject.SetActive(false);
+	}
+
 	void OnTriggerExit (Collider other){
 	}
 }
