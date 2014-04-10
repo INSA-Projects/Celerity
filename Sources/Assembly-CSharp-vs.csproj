@@ -70,6 +70,8 @@
      <Compile Include="Assets\Scripts\AttraperCSharp.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\StartGenerator.cs" />
      <Compile Include="Assets\Scripts\SynchroTirCSharp.cs" />
      <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\TRR.cs" />

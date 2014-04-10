@@ -47,10 +47,8 @@ public class PorteCSharp : MonoBehaviour
 		if (wii == null)
 			wii = GameObject.Find ("First Person Controller").GetComponent<WiiMote> ();
 		
-		if ((trigger && Input.GetKeyDown ("f")) || (trigger && (wii != null && wii.b_C))) {
-			if (open) {
-				fermerPorte ();
-			} else {
+		if ((trigger && Input.GetKeyDown ("e")) || (trigger && (wii != null && wii.b_C))) {
+			if (!open) {
 				ouvrirPorte ();
 			}
 		}
@@ -58,15 +56,17 @@ public class PorteCSharp : MonoBehaviour
 	
 	void OnTriggerEnter (Collider other)
 	{
-			
 		if (other.tag == "Player") {
 			trigger = true;
 		}
 	}
-	
+
 	void OnTriggerExit (Collider other)
 	{
 		trigger = false;
+		if (open){
+			fermerPorte();
+		}
 	}
 	
 	void fermerPorte ()
