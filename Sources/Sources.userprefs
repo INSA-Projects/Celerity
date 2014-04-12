@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SciFi level\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OpenRelativity\shaders\relativity.shader">
     <Files>
-      <File FileName="Assets\SciFi level\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" Line="6" Column="1" />
+      <File FileName="Assets\OpenRelativity\shaders\relativity.shader" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TextControl.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TextControl.cs" Line="1" Column="1" />
       <File FileName="Assets\Armes\Scripts\LanceurBalleRebondissante.js" Line="1" Column="1" />
       <File FileName="Assets\IA\Ennemis\IaEnnemis.js" Line="1" Column="1" />
       <File FileName="Assets\Armes\Scripts\EnemyHealth.cs" Line="1" Column="1" />
@@ -11,6 +13,7 @@
       <File FileName="Assets\Armes\Scripts\LanceurBatteReondissanteCSharp.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Collision.js" Line="1" Column="1" />
       <File FileName="Assets\Armes\Scripts\TestHealthBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenRelativity\shaders\relativity.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
