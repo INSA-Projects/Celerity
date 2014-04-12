@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
@@ -48,7 +47,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																		GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -65,58 +64,6 @@ Global
 		$3.inheritsSet = Mono
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
-	EndGlobalSection
-
-EndGlobal
-=======
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{FB61758D-0F0F-DA4B-A867-C3D5A46C16A7}") = "Sources", "Assembly-CSharp-firstpass.csproj", "{E5D1C7BC-1A59-DF8F-356D-EC8687A7528E}"
-EndProject
-Project("{FB61758D-0F0F-DA4B-A867-C3D5A46C16A7}") = "Sources", "Assembly-CSharp.csproj", "{FA30A161-B2E9-DE84-0D54-31C4148E2879}"
-EndProject
-Project("{FB61758D-0F0F-DA4B-A867-C3D5A46C16A7}") = "Sources", "Assembly-CSharp-Editor.csproj", "{D4F5EAFD-A597-9A77-FA89-EB034746FEC0}"
-EndProject
-Project("{FB61758D-0F0F-DA4B-A867-C3D5A46C16A7}") = "Sources", "Assembly-UnityScript-firstpass.unityproj", "{5A5013DB-CC3E-61E4-E23A-EBA02AEB9032}"
-EndProject
-Project("{FB61758D-0F0F-DA4B-A867-C3D5A46C16A7}") = "Sources", "Assembly-UnityScript.unityproj", "{229DDEB6-C696-B5AB-F425-2863716B8D85}"
-EndProject
-Project("{FB61758D-0F0F-DA4B-A867-C3D5A46C16A7}") = "Sources", "Assembly-UnityScript-Editor.unityproj", "{9F556D83-9DB5-8CF2-5F8A-0ED18C2144DD}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5D1C7BC-1A59-DF8F-356D-EC8687A7528E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5D1C7BC-1A59-DF8F-356D-EC8687A7528E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5D1C7BC-1A59-DF8F-356D-EC8687A7528E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5D1C7BC-1A59-DF8F-356D-EC8687A7528E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA30A161-B2E9-DE84-0D54-31C4148E2879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA30A161-B2E9-DE84-0D54-31C4148E2879}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA30A161-B2E9-DE84-0D54-31C4148E2879}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA30A161-B2E9-DE84-0D54-31C4148E2879}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4F5EAFD-A597-9A77-FA89-EB034746FEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4F5EAFD-A597-9A77-FA89-EB034746FEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4F5EAFD-A597-9A77-FA89-EB034746FEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4F5EAFD-A597-9A77-FA89-EB034746FEC0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A5013DB-CC3E-61E4-E23A-EBA02AEB9032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A5013DB-CC3E-61E4-E23A-EBA02AEB9032}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A5013DB-CC3E-61E4-E23A-EBA02AEB9032}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A5013DB-CC3E-61E4-E23A-EBA02AEB9032}.Release|Any CPU.Build.0 = Release|Any CPU
-		{229DDEB6-C696-B5AB-F425-2863716B8D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{229DDEB6-C696-B5AB-F425-2863716B8D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{229DDEB6-C696-B5AB-F425-2863716B8D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{229DDEB6-C696-B5AB-F425-2863716B8D85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F556D83-9DB5-8CF2-5F8A-0ED18C2144DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F556D83-9DB5-8CF2-5F8A-0ED18C2144DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F556D83-9DB5-8CF2-5F8A-0ED18C2144DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F556D83-9DB5-8CF2-5F8A-0ED18C2144DD}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 																																																																																																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
@@ -138,4 +85,3 @@ Global
 	EndGlobalSection
 
 EndGlobal
->>>>>>> correctionScriptEnnemi
