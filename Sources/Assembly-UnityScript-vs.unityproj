@@ -81,6 +81,7 @@
      <None Include="Assets\Monster2pack\Shaders\OlesWaterSurfaceShader.shader" />
      <None Include="Assets\Ben3d Crate\Read me.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
+     <None Include="Assets\Urban_Props\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
