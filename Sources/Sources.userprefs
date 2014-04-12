@@ -1,19 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OpenRelativity\shaders\relativity.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\IA\Ennemis\IaEnnemis.js">
     <Files>
-      <File FileName="Assets\OpenRelativity\shaders\relativity.shader" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TextControl.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TextControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\LanceurBalleRebondissante.js" Line="1" Column="1" />
       <File FileName="Assets\IA\Ennemis\IaEnnemis.js" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\EnemyHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\CompteurDeKills.js" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\CompteurDeKills.cs" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\LanceurBatteReondissanteCSharp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Collision.js" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\TestHealthBar.cs" Line="1" Column="1" />
-      <File FileName="Assets\OpenRelativity\shaders\relativity.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
