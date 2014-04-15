@@ -206,6 +206,7 @@ function OnCollisionEnter(other :Collision)
 		/*KillPlayer();*/
 		curHealth -= 1;
 		
+		
 		if(curHealth < 0) {
 			KillPlayer();
 			for (var i : int = 0;i < 10; i++) {

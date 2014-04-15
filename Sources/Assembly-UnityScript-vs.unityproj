@@ -56,8 +56,11 @@
      <Compile Include="Assets\IA\Ennemis\IaEnnemis.js" />
      <Compile Include="Assets\KBH_character\Scripts\3rd person\Idle_Cam.js" />
      <Compile Include="Assets\Monster2pack\Scripts\UVScroller.js" />
+     <Compile Include="Assets\OpenRelativity\testPointContact.js" />
+     <Compile Include="Assets\Point.js" />
      <Compile Include="Assets\Scripts\Attraper.js" />
      <Compile Include="Assets\Scripts\Collision.js" />
+     <Compile Include="Assets\Scripts\EditScore.js" />
      <Compile Include="Assets\Scripts\Porte.js" />
      <Compile Include="Assets\Scripts\SynchroTir.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
@@ -66,6 +69,7 @@
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\KBH_character\Materials\HiPoly\NewShader.shader" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Help.txt" />
      <None Include="Assets\plants\dd\AlphaTest-Bumped.shader" />
      <None Include="Assets\Departement\Textures\cielenfond.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
