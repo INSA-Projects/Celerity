@@ -100,6 +100,7 @@
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\KBH_character\Materials\HiPoly\NewShader.shader" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Help.txt" />
      <None Include="Assets\plants\dd\AlphaTest-Bumped.shader" />
      <None Include="Assets\Departement\Textures\cielenfond.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
@@ -115,6 +116,7 @@
      <None Include="Assets\Monster2pack\Shaders\OlesWaterSurfaceShader.shader" />
      <None Include="Assets\Ben3d Crate\Read me.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
+     <None Include="Assets\Urban_Props\readme.txt" />
  <Reference Include="MiddleVR_dotNet">
  <HintPath>Assets\ZombieCharacterPack\MiddleVR\MiddleVR_dotNet.dll</HintPath>
  </Reference>
