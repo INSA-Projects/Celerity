@@ -19,9 +19,9 @@ var maxHealth = 5;
 var curHealth = 5;
 var healthBarLengh;
 var adj =-1;
-var fire : Transform;
+var explosion : Transform;
 /*var Hbar = Transform;*/
-
+var fire : Transform;
 
 var tagArme = "Arme";
 
@@ -208,6 +208,7 @@ function OnCollisionEnter(other :Collision)
 		
 		
 		if(curHealth < 0) {
+			Instantiate(explosion, transform.position, transform.rotation);
 			KillPlayer();
 			for (var i : int = 0;i < 10; i++) {
 				Instantiate (prefab, Vector3(i * 2.0, 0, 0), Quaternion.identity);

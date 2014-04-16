@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Attraper.js" />
      <Compile Include="Assets\Scripts\Collision.js" />
      <Compile Include="Assets\Scripts\EditScore.js" />
+     <Compile Include="Assets\Scripts\HealthPlayer.js" />
      <Compile Include="Assets\Scripts\Porte.js" />
      <Compile Include="Assets\Scripts\SynchroTir.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
