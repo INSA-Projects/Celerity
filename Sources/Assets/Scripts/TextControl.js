@@ -9,7 +9,7 @@ function OnMouseEnter(){
 }
 
 function OnMouseExit(){
-	renderer.material.color = Color.grey;
+	renderer.material.color = Color.white;
 }
 
 function OnMouseUp(){
