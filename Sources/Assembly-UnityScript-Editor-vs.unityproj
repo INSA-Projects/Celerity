@@ -58,6 +58,7 @@
      <None Include="Assets\Little War Machines\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\OpenRelativity\shaders\desaturateShader.shader" />
+     <None Include="Assets\Machine Shop Equipment\Readme.txt" />
      <None Include="Assets\OpenRelativity\shaders\skybox.shader" />
      <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
      <None Include="Assets\Departement\Textures\departinfo.txt" />
@@ -65,6 +66,7 @@
      <None Include="Assets\Nobiax Free Gaz Tank\Nobiax Free Gaz Tank.txt" />
      <None Include="Assets\Monster2pack\Shaders\OlesWaterSurfaceShader.shader" />
      <None Include="Assets\Ben3d Crate\Read me.txt" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
      <None Include="Assets\Urban_Props\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">

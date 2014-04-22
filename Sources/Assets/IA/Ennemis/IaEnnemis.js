@@ -25,8 +25,8 @@ var fire : Transform;
 
 var tagArme = "Arme";
 
-/*apparition explosion*/
-var prefab : Transform;
+var prefab: Transform;
+
 
 function Awake() {
 	pathPoint[0] = transform;
@@ -232,6 +232,8 @@ function KillPlayer(){
 	Destroy(transform.gameObject);
 	CompteurDeKills.nbKills ++;
 }
+
+
 
 /*function OnGUI(){
 	/*if(!Hbar){
