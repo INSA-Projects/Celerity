@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Armes\Scripts\AmmoScript.js" />
      <Compile Include="Assets\Armes\Scripts\Batte.js" />
      <Compile Include="Assets\Armes\Scripts\CompteurDeKills.js" />
      <Compile Include="Assets\Armes\Scripts\GestionArmes.js" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scripts\Attraper.js" />
      <Compile Include="Assets\Scripts\Collision.js" />
      <Compile Include="Assets\Scripts\EditScore.js" />
+     <Compile Include="Assets\Scripts\HealthPlayer.js" />
      <Compile Include="Assets\Scripts\Porte.js" />
      <Compile Include="Assets\Scripts\SynchroTir.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
@@ -77,6 +79,7 @@
      <None Include="Assets\Little War Machines\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\OpenRelativity\shaders\desaturateShader.shader" />
+     <None Include="Assets\Machine Shop Equipment\Readme.txt" />
      <None Include="Assets\OpenRelativity\shaders\skybox.shader" />
      <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
      <None Include="Assets\Departement\Textures\departinfo.txt" />
@@ -84,6 +87,7 @@
      <None Include="Assets\Nobiax Free Gaz Tank\Nobiax Free Gaz Tank.txt" />
      <None Include="Assets\Monster2pack\Shaders\OlesWaterSurfaceShader.shader" />
      <None Include="Assets\Ben3d Crate\Read me.txt" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
      <None Include="Assets\Urban_Props\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
