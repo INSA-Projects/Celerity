@@ -1,15 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PorteCSharp.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OpenRelativity\SpeedOfLightManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\PorteCSharp.cs" Line="42" Column="1" />
-      <File FileName="Assets\Scripts\PorteCSharp.cs" Line="1" Column="1" />
-      <File FileName="Assets\IA\Ennemis\IaEnnemis.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MunitionControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\HealthPlayer.js" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\LanceurBatteReondissanteCSharp.cs" Line="1" Column="1" />
-      <File FileName="Assets\Armes\Scripts\AmmoScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TextControl.js" Line="1" Column="1" />
+      <File FileName="Assets\OpenRelativity\InfoScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\TRR.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenRelativity\VelocityFPC.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenRelativity\SpeedOfLightManager.cs" Line="28" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
