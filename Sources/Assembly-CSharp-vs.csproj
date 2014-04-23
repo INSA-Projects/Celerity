@@ -56,6 +56,18 @@
      <Compile Include="Assets\Effect Textures\Scripts\Rotation.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\Scales.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\ScrollUV.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Assist Examples\ConnectWithKillDisplay.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Assist Examples\DisplayKills.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Health\DestroyOnDeath.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Health\Health.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Health\HealthAssist.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Health\HealthEventIndicator.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Health\SpawnOnHealthEvent.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Health\TemporaryHealthBuff.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Other Examples\HealthText.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Other Examples\RestartScene.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Other Examples\Shoot.cs" />
+     <Compile Include="Assets\Health Script\Scripts\Ownership\Owner.cs" />
      <Compile Include="Assets\MiddleVR_FirstPersonController\VRFPSInputController.cs" />
      <Compile Include="Assets\Monster2pack\Scripts\Ventilation.cs" />
      <Compile Include="Assets\OpenRelativity\GameState.cs" />
@@ -72,6 +84,7 @@
      <Compile Include="Assets\OpenRelativity\shaders\ImageEffectBase.cs" />
      <Compile Include="Assets\Scripts\AttraperCSharp.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\MunitionControl.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\StartGenerator.cs" />
@@ -108,6 +121,7 @@
      <None Include="Assets\Little War Machines\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\OpenRelativity\shaders\desaturateShader.shader" />
+     <None Include="Assets\Machine Shop Equipment\Readme.txt" />
      <None Include="Assets\OpenRelativity\shaders\skybox.shader" />
      <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
      <None Include="Assets\Departement\Textures\departinfo.txt" />
@@ -115,6 +129,7 @@
      <None Include="Assets\Nobiax Free Gaz Tank\Nobiax Free Gaz Tank.txt" />
      <None Include="Assets\Monster2pack\Shaders\OlesWaterSurfaceShader.shader" />
      <None Include="Assets\Ben3d Crate\Read me.txt" />
+     <None Include="Assets\license.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
      <None Include="Assets\Urban_Props\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
