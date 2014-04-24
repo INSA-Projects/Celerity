@@ -80,9 +80,12 @@ void Update(){
 	
 
 void OnGUI () {
-	/* pourquoi ne s'affiche pas ????????????*/	
-	ammo.text = "Munitions: "+ nbCourantMunition + "/" + nbMaxMunition;
-	GUI.Box (new Rect (40, 40, 40, 40), nbCourantMunition + "/" + nbMaxMunition);	
+	if(nbCourantMunition!=0){
+		ammo.text = "Munitions: "+ nbCourantMunition + "/" + nbMaxMunition;
+	}else{
+			ammo.text = "Touche R pour recharger";
+	}
+	/*GUI.Box (new Rect (40, 40, 40, 40), nbCourantMunition + "/" + nbMaxMunition);*/	
 }
 
 

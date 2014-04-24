@@ -83,6 +83,7 @@
      <Compile Include="Assets\OpenRelativity\shaders\ColorCorrectionEffect.cs" />
      <Compile Include="Assets\OpenRelativity\shaders\ImageEffectBase.cs" />
      <Compile Include="Assets\Scripts\AttraperCSharp.cs" />
+     <Compile Include="Assets\Scripts\FirstEvent.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\MunitionControl.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />

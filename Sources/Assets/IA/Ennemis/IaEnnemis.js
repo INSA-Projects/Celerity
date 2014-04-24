@@ -27,6 +27,9 @@ var tagArme = "Arme";
 
 var prefab: Transform;
 
+var message3 = false;
+var message : GUIText;
+
 
 function Awake() {
 	pathPoint[0] = transform;
@@ -229,6 +232,9 @@ function OnCollisionEnter(other :Collision)
 }
 
 function KillPlayer(){
+	if(message3 == true){
+		message.text = "Entrez dans la salle d'a cote, Touche e";
+	}
 	Destroy(transform.gameObject);
 	CompteurDeKills.nbKills ++;
 }

@@ -19,6 +19,10 @@ public class PorteCSharp : MonoBehaviour
 	private Vector3 openRot;
 	private WiiMote wii = null;
 
+	public bool message1;
+	public bool message2;
+	public GUIText message;
+
 	void Start ()
 	{
 		/* Initialisation des valeurs pour que la porte conserve sa position initiale au lancement */
@@ -48,8 +52,26 @@ public class PorteCSharp : MonoBehaviour
 			wii = GameObject.Find ("First Person Controller").GetComponent<WiiMote> ();
 		
 		if ((trigger && Input.GetKeyDown ("e")) || (trigger && (wii != null && wii.b_C))) {
-			if (!open) {
-				ouvrirPorte ();
+
+			if (message1 == true){
+				message.text = "Rammassez le canon --> Touche P ";
+				/*la vitesse de la lumiere va brusquement diminuer*/
+				if (!open) {
+					ouvrirPorte ();
+				}
+			}else{
+				if (message2 == true){
+					TRR.SPEEDOFLIGHT=200;
+					message.text = "La vitesse de la lumiere est monté à 200 m/s";
+					if (!open) {
+						ouvrirPorte ();
+					}
+				}else{
+
+					if (!open) {
+						ouvrirPorte ();
+					}
+				}
 			}
 		}
 	}
@@ -66,6 +88,7 @@ public class PorteCSharp : MonoBehaviour
 		trigger = false;
 		if (open){
 			fermerPorte();
+			message.text = "";
 		}
 	}
 	
