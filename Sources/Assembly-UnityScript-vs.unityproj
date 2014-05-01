@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Porte.js" />
      <Compile Include="Assets\Scripts\SynchroTir.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
+     <Compile Include="Assets\Scripts\Turrent.js" />
      <Compile Include="Assets\Steel Barrels\demo controls.js" />
      <Compile Include="Assets\fightBOT (free)\script\robo_animationCheck_free.js" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
