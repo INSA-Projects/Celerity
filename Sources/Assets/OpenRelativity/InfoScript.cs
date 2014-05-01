@@ -4,6 +4,7 @@ using System.Collections;
 public class InfoScript : MonoBehaviour {
 	public GUIText Ennemi;
 	public GUIText Vitesse;
+	public GUIText Vie;
 	
     //Gamestate reference for quick access
     GameState state;
@@ -23,6 +24,7 @@ public class InfoScript : MonoBehaviour {
 		if ( ennemisRestants == 0) {
 			Ennemi.text = "Il n'y a plus d'ennemis";
 			Vitesse.text = "Vitesse de la lumiere : "+ TRR.SPEEDOFLIGHT;
+			Vie.text = "Nombre de vie restants : "+ HealthPlayerCSharp.currentHealth;
 			/*GUI.Box (new Rect (0,0,200,50), "Vitesse de la lumiere : " +   TRR.SPEEDOFLIGHT);*/
 			/*GUI.Label(new Rect(20,25,200,50), "Augmenter/reduire avec +/-");*/
 		} else {
@@ -30,6 +32,7 @@ public class InfoScript : MonoBehaviour {
 			Ennemi.text = "Nombre d'ennemis restants : "+ennemisRestants;
 			/*GUI.Label(new Rect(20,25,200,50), "Vitesse de la lumiere : " + TRR.SPEEDOFLIGHT);*/
 			Vitesse.text = "Vitesse de la lumiere : "+ TRR.SPEEDOFLIGHT;
+			Vie.text = "Nombre de vie restants : "+ HealthPlayerCSharp.currentHealth;
 		}
 		//What's our velocity?
 		//GUI.Box (new Rect (0,100,200,100), "Current Speed: " + state.rigid.vitesse);

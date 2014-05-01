@@ -66,6 +66,7 @@
      <None Include="Assets\Machine Shop Equipment\Readme.txt" />
      <None Include="Assets\OpenRelativity\shaders\skybox.shader" />
      <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
+     <None Include="Assets\Turret\Shaders\AlphaTest_Complete.shader" />
      <None Include="Assets\Departement\Textures\departinfo.txt" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\Nobiax Free Gaz Tank\Nobiax Free Gaz Tank.txt" />
