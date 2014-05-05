@@ -36,8 +36,6 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	
 	
 void Update(){ 
-		
-		
 		if(wii == null) {
 			wii = GameObject.Find("First Person Controller").GetComponent<WiiMote>();
 		}
@@ -52,7 +50,6 @@ void Update(){
 										Physics.IgnoreCollision (instantiatedProjectile.collider, transform.root.collider);
 										/*augmentation du nbMunitionCourant*/
 										nbCourantMunition -= 1;
-
 								}
 							
 								if (instantiatedProjectile) {
@@ -60,7 +57,7 @@ void Update(){
 										Destroy (instantiatedProjectile.gameObject, dureeDeVie);
 								}
 						}
-			} else {
+		} else {
 
 						if (Input.GetKeyDown ("r")) {
 				

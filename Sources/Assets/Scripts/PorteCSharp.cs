@@ -61,11 +61,12 @@ public class PorteCSharp : MonoBehaviour
 		}
 	}
 
-	void OnTriggerExit (Collider other)
-	{
-		trigger = false;
-		if (open){
-			fermerPorte();
+	void OnTriggerExit (Collider other){
+		if (other.tag == "Player") {
+			trigger = false;
+			if (open){
+				fermerPorte();
+			}
 		}
 	}
 	
