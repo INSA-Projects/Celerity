@@ -54,6 +54,7 @@
      <Compile Include="Assets\Armes\Scripts\LanceurBatteReondissanteCSharp.cs" />
      <Compile Include="Assets\Armes\Scripts\TestHealthBar.cs" />
      <Compile Include="Assets\AudioManager.cs" />
+     <Compile Include="Assets\ClosedDoor.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\Rotation.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\Scales.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\ScrollUV.cs" />
@@ -112,6 +113,7 @@
      <Compile Include="Assets\changeMusic.cs" />
      <Compile Include="Assets\deplacement\Interaction.cs" />
      <Compile Include="Assets\deplacement\WiiMote.cs" />
+     <Compile Include="Assets\openTheDoor.cs" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\KBH_character\Materials\HiPoly\NewShader.shader" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />

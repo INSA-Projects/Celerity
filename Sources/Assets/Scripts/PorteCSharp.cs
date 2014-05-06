@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PorteCSharp : MonoBehaviour
 {
-
 	public float amplitude = 90;
 	private float openAngle;
 	private float closedAngle;
@@ -54,8 +53,7 @@ public class PorteCSharp : MonoBehaviour
 		}
 	}
 	
-	void OnTriggerEnter (Collider other)
-	{
+	void OnTriggerEnter (Collider other){
 		if (other.tag == "Player") {
 			trigger = true;
 		}
