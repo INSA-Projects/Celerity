@@ -24,39 +24,35 @@ public class AttraperCSharp : MonoBehaviour {
 	
 
 void FixedUpdate() {
-		
-		if(wii == null)
+		if(wii == null){
 			wii = GameObject.Find("First Person Controller").GetComponent<WiiMote>();
-			
-		
-	// Si un objet est saisi
-	if(objetSaisi)
-	{	
-		// Si on maintient Fire2, l'objet reste saisi
-		if(Input.GetButton("Fire2") || (wii != null && wii.b_un)) {
-			// Si on appuie sur "Fire1" l'objet est lancé
-			if (Input.GetButton("Fire1") || (wii != null && wii.b_B)) {
-				lancerObjet();
+		}
+		// Si un objet est saisi
+		if(objetSaisi){
+			// Si on maintient Fire2, l'objet reste saisi
+			if(Input.GetButton("Fire2") || (wii != null && wii.b_un)) {
+				// Si on appuie sur "Fire1" l'objet est lancé
+				if (Input.GetButton("Fire1") || (wii != null && wii.b_B)) {
+					lancerObjet();
+				}
+				// Sinon il suit le joueur
+				else {
+					asservirObjet();
+				}
 			}
-			// Sinon il suit le joueur
+			// Sinon il est libéré
 			else {
-				asservirObjet();
+				libererObjet();
 			}
 		}
-		// Sinon il est libéré
+		// Si un objet n'est pas saisi, on essaie d'en saisir un quand il y a appui sur "Fire2"
 		else {
-			libererObjet();
+			// Utilisation de tirPossible() pour éviter de pouvoir attraper de nouveau un objet venant d'etre lancé.
+			if((Input.GetButton("Fire2") || (wii != null && wii.b_un)) && SynchroTirCSharp.tirPossible()) {
+				saisirObjet();
+			}
 		}
 	}
-	// Si un objet n'est pas saisi, on essaie d'en saisir un quand il y a appui sur "Fire2"
-	else
-	{
-		// Utilisation de tirPossible() pour éviter de pouvoir attraper de nouveau un objet venant d'etre lancé.
-		if((Input.GetButton("Fire2") || (wii != null && wii.b_un)) && SynchroTirCSharp.tirPossible()) {
-			saisirObjet();
-		}
-	}
-}
 
 // Recherche un objet à saisir puis le saisit
 void saisirObjet() {

@@ -7,7 +7,6 @@ public class StartGenerator : MonoBehaviour {
 	private WiiMote wii = null;
 	private bool pressEtoActivate = false;
 
-
 	
 	void Start (){
 	}
@@ -31,7 +30,6 @@ public class StartGenerator : MonoBehaviour {
 	void OnTriggerStay (Collider col){
 		if (col.gameObject.tag == "Player") {
 			if ((Input.GetKeyDown ("e")) || (wii != null && wii.b_C)) {
-
 				audio.PlayOneShot(clickButton);
 				generator.animation.Play();
 				generator.audio.Play();

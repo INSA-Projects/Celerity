@@ -5,6 +5,7 @@ public class openTheDoor : MonoBehaviour {
 	private bool GUIEnabled = false;
 	public GameObject porte ;
 
+
 	// Use this for initialization
 	void Start () {
 	}
@@ -34,6 +35,8 @@ public class openTheDoor : MonoBehaviour {
 				porte.GetComponent<PorteCSharp>().enabled = true;
 				Destroy(this);
 			}
+
+
 		}
 
 	}

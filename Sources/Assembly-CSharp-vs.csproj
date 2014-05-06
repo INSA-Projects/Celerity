@@ -114,6 +114,7 @@
      <Compile Include="Assets\deplacement\Interaction.cs" />
      <Compile Include="Assets\deplacement\WiiMote.cs" />
      <Compile Include="Assets\openTheDoor.cs" />
+     <Compile Include="Assets\sandClockScript.cs" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\KBH_character\Materials\HiPoly\NewShader.shader" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />

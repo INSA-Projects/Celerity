@@ -3,7 +3,6 @@ using System.Collections;
 
 public class SynchroTirCSharp : MonoBehaviour {
 
-
 static float tempsLache;
 static float delai = (float) 0.5;
 static bool objetEnMain = false;
