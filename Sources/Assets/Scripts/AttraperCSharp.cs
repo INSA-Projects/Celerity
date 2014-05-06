@@ -12,11 +12,11 @@ public class AttraperCSharp : MonoBehaviour {
 	static public bool objetSaisi = false;
 
 // La portée de saisie maximum
-	public float portee = (float) 5.0;
+	public float portee;
 // Pour les lancers de rayons
 	public RaycastHit hit;
 // Le rigidbody attrapé
-	private Rigidbody rigidbodyAttrape;
+	static private Rigidbody rigidbodyAttrape;
 
 	private float distance = 2;
 	
@@ -96,7 +96,7 @@ void asservirObjet() {
 	//rigidbodyAttrape.transform = pointCible;
 }
 
-void libererObjet() {
+public void libererObjet() {
 	rigidbodyAttrape.useGravity = true;
 	rigidbodyAttrape = null;
 	objetSaisi = false;
@@ -108,6 +108,6 @@ void lancerObjet() {
 	Vector3 forward = transform.TransformDirection(Vector3.forward);
 	rigidbodyAttrape.AddForce(750*forward);
 	libererObjet();
-}
+	}
 
 }

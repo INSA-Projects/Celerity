@@ -17,7 +17,7 @@ public class ClosedDoor : MonoBehaviour {
 	void OnGUI() {
 		if (GUIEnabled){
 			GUI.backgroundColor = Color.blue;
-			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nCe n'est pas le moment de partir...");
+			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nCe n'est pas le moment de partir.");
 		}
 	}
 
