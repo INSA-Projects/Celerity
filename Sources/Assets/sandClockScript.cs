@@ -40,7 +40,7 @@ public class sandClockScript : MonoBehaviour {
 	}
 	void OnTriggerExit (Collider col) {
 		if (col.gameObject.tag == "Player") {
-				particule.GetComponent<ParticleSystem>().Stop() ;
+				//particule.GetComponent<ParticleSystem>().Stop() ;
 				GUIEnabled = false;
 		}
 	}

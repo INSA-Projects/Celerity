@@ -1,21 +1,29 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class StartGenerator : MonoBehaviour {
-	public GameObject generator ;
-	public AudioClip clickButton ;
 	private WiiMote wii = null;
+	public GameObject generator ;				// the generator to activate
+	public AudioClip clickButton ;				// sound of the button when it's activated
+
+	static public bool sandClockInTeleport = false;	// check if the sandclock is ready
 	private bool pressEtoActivate = false;		// "press E to activate"
 	private bool sandClockGUI = false;			// "the experimentation is not ready"
-	static public bool sandClockInTeleport = false;	// check if the sandclock is ready
-
 	
+	public GameObject mainLightEffect;			// the main light effect of the teleportation
+	public GameObject lightEffect1;				// the teleportation secondary light effects
+	public GameObject audioLightEffect;			// sound of the teleportation
+	public GameObject audioAlert;				// sound of the failure alert
+
+	public GameObject player;					// the player
+	public GameObject spawnPoint;				// where the player will be teleported
+
 	void Start (){
 	}
 	
-	void FixedUpdate (){
-	}
-
+	/**
+	 * printing functions for the player
+	 * */
 	void OnGUI() {
 		if (sandClockGUI){
 			GUI.backgroundColor = Color.blue;
@@ -26,28 +34,64 @@ public class StartGenerator : MonoBehaviour {
 		}
 	}
 
+	/**
+	 * activate the right printing
+	 * */
 	void OnTriggerEnter (Collider col) {
 		if (col.gameObject.tag == "Player") {
 			if (sandClockInTeleport) {
 				pressEtoActivate = true;
 			} else {
 				sandClockGUI = true ;
-				Debug.Log("lol");
 			}
 		}
 	}
 
+	/**
+	 * launch the teleportation process
+	 * */
 	void OnTriggerStay (Collider col){
 		if (col.gameObject.tag == "Player") {
 			if (((Input.GetKeyDown ("e")) || (wii != null && wii.b_C)) && sandClockInTeleport) {
+				// start the generator
 				audio.PlayOneShot(clickButton);
 				generator.animation.Play();
 				generator.audio.Play();
+				// disable the button
 				Invoke("desactivate", clickButton.length);
+				// start the teleportation
+				lightEffect1.particleSystem.Play();
+				audioLightEffect.audio.Play();
+				// start the failure
+				Invoke ("teleportationFailure",5);
 			}
 		}
 	}
 
+	/**
+	 * launch the particle vortex
+	 * */
+	void teleportationFailure(){
+		audioAlert.audio.Play();
+		mainLightEffect.particleSystem.Play();
+		// launch the player's teleportation
+		Invoke ("chaoticTeleportation",11);
+	}
+
+	/**
+	 * launch the player's erratic teleportation
+	 * */
+	void chaoticTeleportation(){
+		player.transform.position = spawnPoint.transform.position;
+		mainLightEffect.particleSystem.Stop();
+		lightEffect1.particleSystem.Stop();
+		audioLightEffect.audio.Stop();
+		audioAlert.audio.Stop();
+	}
+
+	/**
+	 * desactivate all printings
+	 * */
 	void OnTriggerExit (Collider col) {
 		if (col.gameObject.tag == "Player") {
 			pressEtoActivate = false;
@@ -55,6 +99,9 @@ public class StartGenerator : MonoBehaviour {
 		}
 	}
 
+	/**
+	 * destroy the button trigger
+	 * */
 	void desactivate () {
 		gameObject.SetActive(false);
 	}

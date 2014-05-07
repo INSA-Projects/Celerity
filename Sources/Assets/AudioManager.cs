@@ -17,4 +17,5 @@ public class AudioManager : MonoBehaviour {
 		// starts the music
 		musics[num].audio.Play();
 	}
+
 }
