@@ -11,7 +11,11 @@ public class StartGenerator : MonoBehaviour {
 	private bool sandClockGUI = false;			// "the experimentation is not ready"
 	
 	public GameObject mainLightEffect;			// the main light effect of the teleportation
-	public GameObject lightEffect1;				// the teleportation secondary light effects
+	public GameObject vortexLightEffect;		// the vortex effect
+	public GameObject lightEffect1;				// the 4 teleportation devices light effects
+	public GameObject lightEffect2;
+	public GameObject lightEffect3;
+	public GameObject lightEffect4;
 	public GameObject audioLightEffect;			// sound of the teleportation
 	public GameObject audioAlert;				// sound of the failure alert
 
@@ -35,7 +39,7 @@ public class StartGenerator : MonoBehaviour {
 	}
 
 	/**
-	 * activate the right printing
+	 * activate the right printings
 	 * */
 	void OnTriggerEnter (Collider col) {
 		if (col.gameObject.tag == "Player") {
@@ -60,7 +64,11 @@ public class StartGenerator : MonoBehaviour {
 				// disable the button
 				Invoke("desactivate", clickButton.length);
 				// start the teleportation
+				vortexLightEffect.particleSystem.Play();
 				lightEffect1.particleSystem.Play();
+				lightEffect2.particleSystem.Play();
+				lightEffect3.particleSystem.Play();
+				lightEffect4.particleSystem.Play();
 				audioLightEffect.audio.Play();
 				// start the failure
 				Invoke ("teleportationFailure",5);
@@ -75,7 +83,7 @@ public class StartGenerator : MonoBehaviour {
 		audioAlert.audio.Play();
 		mainLightEffect.particleSystem.Play();
 		// launch the player's teleportation
-		Invoke ("chaoticTeleportation",11);
+		Invoke ("chaoticTeleportation",10);
 	}
 
 	/**
@@ -84,6 +92,7 @@ public class StartGenerator : MonoBehaviour {
 	void chaoticTeleportation(){
 		player.transform.position = spawnPoint.transform.position;
 		mainLightEffect.particleSystem.Stop();
+		vortexLightEffect.particleSystem.Stop();
 		lightEffect1.particleSystem.Stop();
 		audioLightEffect.audio.Stop();
 		audioAlert.audio.Stop();
