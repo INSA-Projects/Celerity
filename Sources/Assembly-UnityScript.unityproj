@@ -46,11 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Armes\Scripts\AmmoScript.js" />
-     <Compile Include="Assets\Armes\Scripts\Batte.js" />
-     <Compile Include="Assets\Armes\Scripts\CompteurDeKills.js" />
-     <Compile Include="Assets\Armes\Scripts\GestionArmes.js" />
-     <Compile Include="Assets\Armes\Scripts\LanceurBalleRebondissante.js" />
      <Compile Include="Assets\IA\ArmeAuto\IA.js" />
      <Compile Include="Assets\IA\ArmeAuto\autoDestruction.js" />
      <Compile Include="Assets\IA\Ennemis\IaDef.js" />
@@ -58,11 +53,16 @@
      <Compile Include="Assets\KBH_character\Scripts\3rd person\Idle_Cam.js" />
      <Compile Include="Assets\Monster2pack\Scripts\UVScroller.js" />
      <Compile Include="Assets\OpenRelativity\testPointContact.js" />
-     <Compile Include="Assets\Point.js" />
+     <Compile Include="Assets\Scripts\AmmoScript.js" />
      <Compile Include="Assets\Scripts\Attraper.js" />
+     <Compile Include="Assets\Scripts\Batte.js" />
      <Compile Include="Assets\Scripts\Collision.js" />
+     <Compile Include="Assets\Scripts\CompteurDeKills.js" />
      <Compile Include="Assets\Scripts\EditScore.js" />
+     <Compile Include="Assets\Scripts\GestionArmes.js" />
      <Compile Include="Assets\Scripts\HealthPlayer.js" />
+     <Compile Include="Assets\Scripts\LanceurBalleRebondissante.js" />
+     <Compile Include="Assets\Scripts\Point.js" />
      <Compile Include="Assets\Scripts\Porte.js" />
      <Compile Include="Assets\Scripts\SynchroTir.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
