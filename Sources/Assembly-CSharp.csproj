@@ -111,8 +111,11 @@
      <Compile Include="Assets\ZombieCharacterPack\MiddleVR\Scripts\Samples\VRInteractionTest.cs" />
      <Compile Include="Assets\ZombieCharacterPack\MiddleVR\Scripts\Samples\VRVirtualTrackerMapping.cs" />
      <Compile Include="Assets\changeMusic.cs" />
+     <Compile Include="Assets\copterExplosion.cs" />
+     <Compile Include="Assets\crashingCopter.cs" />
      <Compile Include="Assets\deplacement\Interaction.cs" />
      <Compile Include="Assets\deplacement\WiiMote.cs" />
+     <Compile Include="Assets\erraticTeleportation.cs" />
      <Compile Include="Assets\openTheDoor.cs" />
      <Compile Include="Assets\sandClockScript.cs" />
      <Compile Include="Assets\teleportation.cs" />
