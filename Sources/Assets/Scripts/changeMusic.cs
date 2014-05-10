@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class changeMusic : MonoBehaviour {
 	public AudioManager am;
 	public int musicNumber;

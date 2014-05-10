@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+ 
 public class GestionVLum : MonoBehaviour {
 	private int encoreVivants;
 	private GameObject[] tab;

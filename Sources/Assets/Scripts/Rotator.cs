@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class TestRotator : MonoBehaviour {
 	public float x;
 	public float y;

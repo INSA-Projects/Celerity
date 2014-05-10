@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class erraticTeleportation : MonoBehaviour {
 	public GameObject mediumTank; 		// tank that will appear
 	public GameObject flashLight;		// light effects of the apparition

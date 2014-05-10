@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class teleportation : MonoBehaviour {
 	public GameObject absorber;  	// center of the telporter
 	GameObject levitatingObject ; 	// object in levitation in the teleporter

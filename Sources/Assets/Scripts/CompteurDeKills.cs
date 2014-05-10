@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class CompteurDeKills : MonoBehaviour {
 	public string stringToEdit = "PC atteints : 0";
 	public static int nbKills;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class getCanon : MonoBehaviour {
 	public GameObject player; 			// the player
 	public GameObject canon ;			// the canon

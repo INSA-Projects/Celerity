@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class sandClockScript : MonoBehaviour {
 	private bool GUIEnabled = false;
 	public GameObject particule ; // the particule system to activate to indicate the place to put the sand clock.

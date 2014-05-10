@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class openTheDoor : MonoBehaviour {
 	private bool GUIEnabled = false;
 	public GameObject porte ;

@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections; 
 /*
 public class HealthBar : MonoBehaviour {
 	public int maxHealth = 100;

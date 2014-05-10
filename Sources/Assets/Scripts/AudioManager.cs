@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class AudioManager : MonoBehaviour {
 	public GameObject[] musics; //contains the musics
 	public int nbOfMusics;		//number of musics

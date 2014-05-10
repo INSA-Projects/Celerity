@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+
 public class StartGenerator : MonoBehaviour {
 	private WiiMote wii = null;
 	public GameObject generator ;				// the generator to activate

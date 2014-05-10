@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class ClosedDoor : MonoBehaviour {
 	private bool GUIEnabled = false;
 

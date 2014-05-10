@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class MunitionControl : MonoBehaviour {
 	// Use this for initialization
 	void OnCollisionEnter (Collision other) {

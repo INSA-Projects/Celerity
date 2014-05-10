@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class crashingCopter : MonoBehaviour {
 	public GameObject copter;
 

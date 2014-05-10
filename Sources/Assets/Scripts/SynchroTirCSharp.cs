@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+ 
 public class SynchroTirCSharp : MonoBehaviour {
 
 static float tempsLache;

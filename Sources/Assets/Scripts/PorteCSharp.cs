@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+ 
 public class PorteCSharp : MonoBehaviour
 {
 	public float amplitude = 90;

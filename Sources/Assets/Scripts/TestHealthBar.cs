@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+ 
 public class TestHealthBar : MonoBehaviour {
 	public int lg;
 	public Texture2D H1;
