@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// A preciser !!!!
+/// </summary>
 [ExecuteInEditMode]
 [AddComponentMenu("Image Effects/Color Correction (Ramp)")]
 public class ColorCorrectionEffect : ImageEffectBase {

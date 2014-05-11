@@ -1,9 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MunitionControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TRR.cs">
     <Files>
-      <File FileName="Assets\Health Script\Scripts\Other Examples\HealthText.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MunitionControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AttraperCSharp.cs" Line="58" Column="48" />
+      <File FileName="Assets\Scripts\openTheDoor.cs" Line="1" Column="1" />
+      <File FileName="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PorteCSharp.cs" Line="5" Column="53" />
+      <File FileName="Assets\Health Script\Scripts\Other Examples\RestartScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StartGenerator.cs" Line="5" Column="46" />
+      <File FileName="Assets\Scripts\teleportation.cs" Line="5" Column="47" />
+      <File FileName="Assets\Scripts\TRR.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

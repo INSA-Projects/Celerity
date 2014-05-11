@@ -12,7 +12,9 @@ using UnityEngine;
 //using Microsoft.Xna.Framework.Net;
 //using Microsoft.Xna.Framework.Storage;
 
-
+/// <summary>
+/// GameState A preciser
+/// </summary>
 public class GameState : MonoBehaviour
 {
     #region Member Variables

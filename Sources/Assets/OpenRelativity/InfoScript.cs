@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Script pour l'affichage des informations pour le joueur
+/// </summary>
 public class InfoScript : MonoBehaviour {
 	public GUIText Ennemi;
 	public GUIText Vitesse;

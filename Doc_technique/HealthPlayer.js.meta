@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 29d010d5e995afa4da2dc16e1c0efa1e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - coeur1: {fileID: 2800000, guid: 325ca60d46d7dfa4aa3ac1d75b4574dc, type: 3}
+  - coeur2: {fileID: 2800000, guid: 325ca60d46d7dfa4aa3ac1d75b4574dc, type: 3}
+  - coeur3: {fileID: 2800000, guid: 325ca60d46d7dfa4aa3ac1d75b4574dc, type: 3}
+  - fire: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

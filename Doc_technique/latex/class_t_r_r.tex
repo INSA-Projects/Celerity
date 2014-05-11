@@ -1,0 +1,131 @@
+\hypertarget{class_t_r_r}{\section{T\+R\+R Class Reference}
+\label{class_t_r_r}\index{T\+R\+R@{T\+R\+R}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Vector4\mbox{[}$\,$\mbox{]} \hyperlink{class_t_r_r_ae8628180186430f864791acdf278a015}{lorentz\+Transform} (Vector3\mbox{[}$\,$\mbox{]} verts, Vector3 vit, float time)
+\begin{DoxyCompactList}\small\item\em transform mesh thanks to the lorentz transform \end{DoxyCompactList}\item 
+static double \hyperlink{class_t_r_r_adf08f912bf67439db635b288c4a0dbe7}{beta} (Vector3 vit)
+\begin{DoxyCompactList}\small\item\em calcul the beta factor \end{DoxyCompactList}\item 
+\hypertarget{class_t_r_r_a3a29d4474e8b383755a4cebe6bdd6194}{static double {\bfseries gamma} (double \hyperlink{class_t_r_r_adf08f912bf67439db635b288c4a0dbe7}{beta})}\label{class_t_r_r_a3a29d4474e8b383755a4cebe6bdd6194}
+
+\item 
+\hypertarget{class_t_r_r_aaeb3732d6d090364c1cee47eb982ee5e}{static double {\bfseries gamma} (Vector3 vit)}\label{class_t_r_r_aaeb3732d6d090364c1cee47eb982ee5e}
+
+\item 
+static float \hyperlink{class_t_r_r_a00a06961349f0ea35332fe801e1a94df}{get\+Root\+Vit\+Square} (Vector3 vit)
+\begin{DoxyCompactList}\small\item\em calcul the quadratic speed \end{DoxyCompactList}\item 
+\hypertarget{class_t_r_r_ab12942d7e5c0737a3440202beda7deb2}{static float {\bfseries prod\+Vect} (Vector3 a, Vector3 b)}\label{class_t_r_r_ab12942d7e5c0737a3440202beda7deb2}
+
+\item 
+\hypertarget{class_t_r_r_a79fc59368ccc37b4ec430d71832c2c0b}{static float {\bfseries prod\+Scalaire} (Vector3 a, Vector3 b)}\label{class_t_r_r_a79fc59368ccc37b4ec430d71832c2c0b}
+
+\item 
+static Vector4 \hyperlink{class_t_r_r_a7b3d0fc743d2e65f344e057ec61bb354}{lorentz\+Transform\+One\+Point} (Vector3 v3d, Vector3 vit, float time)
+\begin{DoxyCompactList}\small\item\em transform a point thanks to the lorentz transform \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_t_r_r_ac1861e07ab92ee80277ea86093f903d3}{static float {\bfseries S\+P\+E\+E\+D\+O\+F\+L\+I\+G\+H\+T} = 6}\label{class_t_r_r_ac1861e07ab92ee80277ea86093f903d3}
+
+\item 
+\hypertarget{class_t_r_r_af608387067d45e5c7c8e23d8fc3c1ad4}{static float {\bfseries M\+A\+X\+\_\+\+S\+P\+E\+E\+D\+\_\+\+U\+N\+D\+E\+R\+\_\+\+S\+O\+L} = 0.\+001f}\label{class_t_r_r_af608387067d45e5c7c8e23d8fc3c1ad4}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_t_r_r_adf08f912bf67439db635b288c4a0dbe7}{\index{T\+R\+R@{T\+R\+R}!beta@{beta}}
+\index{beta@{beta}!T\+R\+R@{T\+R\+R}}
+\subsubsection[{beta}]{\setlength{\rightskip}{0pt plus 5cm}T\+R\+R.\+beta (
+\begin{DoxyParamCaption}
+\item[{Vector3}]{vit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_t_r_r_adf08f912bf67439db635b288c4a0dbe7}
+
+
+calcul the beta factor 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Vector3} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\hypertarget{class_t_r_r_a00a06961349f0ea35332fe801e1a94df}{\index{T\+R\+R@{T\+R\+R}!get\+Root\+Vit\+Square@{get\+Root\+Vit\+Square}}
+\index{get\+Root\+Vit\+Square@{get\+Root\+Vit\+Square}!T\+R\+R@{T\+R\+R}}
+\subsubsection[{get\+Root\+Vit\+Square}]{\setlength{\rightskip}{0pt plus 5cm}T\+R\+R.\+get\+Root\+Vit\+Square (
+\begin{DoxyParamCaption}
+\item[{Vector3}]{vit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_t_r_r_a00a06961349f0ea35332fe801e1a94df}
+
+
+calcul the quadratic speed 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em vector3} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\hypertarget{class_t_r_r_ae8628180186430f864791acdf278a015}{\index{T\+R\+R@{T\+R\+R}!lorentz\+Transform@{lorentz\+Transform}}
+\index{lorentz\+Transform@{lorentz\+Transform}!T\+R\+R@{T\+R\+R}}
+\subsubsection[{lorentz\+Transform}]{\setlength{\rightskip}{0pt plus 5cm}T\+R\+R.\+lorentz\+Transform (
+\begin{DoxyParamCaption}
+\item[{Vector3\mbox{[}$\,$\mbox{]}}]{verts, }
+\item[{Vector3}]{vit, }
+\item[{float}]{time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_t_r_r_ae8628180186430f864791acdf278a015}
+
+
+transform mesh thanks to the lorentz transform 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Vector3\mbox{[}$\,$\mbox{]}} & coordonne point \\
+\hline
+\mbox{\tt in}  & {\em Vector3} & vitesse \\
+\hline
+\mbox{\tt in}  & {\em int} & time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vector4\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\hypertarget{class_t_r_r_a7b3d0fc743d2e65f344e057ec61bb354}{\index{T\+R\+R@{T\+R\+R}!lorentz\+Transform\+One\+Point@{lorentz\+Transform\+One\+Point}}
+\index{lorentz\+Transform\+One\+Point@{lorentz\+Transform\+One\+Point}!T\+R\+R@{T\+R\+R}}
+\subsubsection[{lorentz\+Transform\+One\+Point}]{\setlength{\rightskip}{0pt plus 5cm}T\+R\+R.\+lorentz\+Transform\+One\+Point (
+\begin{DoxyParamCaption}
+\item[{Vector3}]{v3d, }
+\item[{Vector3}]{vit, }
+\item[{float}]{time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_t_r_r_a7b3d0fc743d2e65f344e057ec61bb354}
+
+
+transform a point thanks to the lorentz transform 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Vector3} & coordonne point \\
+\hline
+\mbox{\tt in}  & {\em Vector3} & vitesse \\
+\hline
+\mbox{\tt in}  & {\em int} & time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vector4 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_t_r_r_8cs}{T\+R\+R.\+cs}\end{DoxyCompactItemize}

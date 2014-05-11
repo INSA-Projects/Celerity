@@ -88,7 +88,6 @@
      <Compile Include="Assets\Scripts\StartGenerator.cs" />
      <Compile Include="Assets\Scripts\SynchroTirCSharp.cs" />
      <Compile Include="Assets\Scripts\TRR.cs" />
-     <Compile Include="Assets\Scripts\TestHealthBar.cs" />
      <Compile Include="Assets\Scripts\TextControl.cs" />
      <Compile Include="Assets\Scripts\changeMusic.cs" />
      <Compile Include="Assets\Scripts\copterExplosion.cs" />
