@@ -16,9 +16,8 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	/*nombre de munition à rajouter*/
 	public int nbMunitionRecharge = 5;
 	/*nombre courant de munition*/
-	public static int nbCourantMunition=5;
+	public static int nbCourantMunition=10;
 
-	
 	public int  reloadTime = 3; //time to reload
 	
 	public int  reloadAmount = 10;
@@ -48,7 +47,7 @@ void Update(){
 										instantiatedProjectile.velocity = Camera.main.transform.TransformDirection (0, 0, speed);
 										instantiatedProjectile.AddForce (0, 10, 0);
 										Physics.IgnoreCollision (instantiatedProjectile.collider, transform.root.collider);
-										/*augmentation du nbMunitionCourant*/
+										/*diminution du nbMunitionCourant*/
 										nbCourantMunition -= 1;
 								}
 							
@@ -61,13 +60,11 @@ void Update(){
 
 						if (Input.GetKeyDown ("r")) {
 				
-								AudioSource.PlayClipAtPoint (reloadSound, transform.position, 1); //plays reload soundclip
+								AudioSource.PlayClipAtPoint (reloadSound, transform.position, 1); //plays reload soundclips
 				
-								/*yield return new WaitForSeconds(reloadTime); //waits for "reloadTime" before adding coconuts*/
+								nbCourantMunition += reloadAmount; 
 				
-								nbCourantMunition += reloadAmount; //adds 3 coconuts to our "clip"
-				
-								nbMaxMunition -= reloadAmount; //subtracts 3 coconuts from our totalCoconuts amount
+								nbMaxMunition -= reloadAmount; 
 				
 						}
 
@@ -77,18 +74,14 @@ void Update(){
 	
 
 void OnGUI () {
-	/* pourquoi ne s'affiche pas ????????????*/	
-	ammo.text = "Munitions: "+ nbCourantMunition + "/" + nbMaxMunition;
-	GUI.Box (new Rect (40, 40, 40, 40), nbCourantMunition + "/" + nbMaxMunition);	
+	if(nbCourantMunition>0){
+		ammo.text = "Munitions: "+ nbCourantMunition + "/" + nbMaxMunition;
+		/*GUI.Box (new Rect (40, 40, 40, 40), nbCourantMunition + "/" + nbMaxMunition);	*/
+	}else{
+		ammo.text = "Touche R pour recharger";
+	}
 }
 
 
-	/*void OnGUI(){
-		if (nbCourantMunition <= nbMaxMunition) {
-						GUI.Box (new Rect (40, 40, 40, 40), nbCourantMunition + "/" + nbMaxMunition);
-				} else {
-						GUI.Box (new Rect (80, 80, 500, 80), "tu n'as plus de munitions");
-				}
-	}*/
 
 }

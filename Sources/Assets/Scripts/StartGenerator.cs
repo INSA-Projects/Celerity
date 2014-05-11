@@ -23,6 +23,7 @@ public class StartGenerator : MonoBehaviour {
 	public GameObject player;					// the player
 	public GameObject spawnPoint;				// where the player will be teleported
 
+	public GUIText info;
 	void Start (){
 	}
 	
@@ -31,11 +32,13 @@ public class StartGenerator : MonoBehaviour {
 	 * */
 	void OnGUI() {
 		if (sandClockGUI){
-			GUI.backgroundColor = Color.blue;
-			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nCe n'est pas encore le moment d'appuyer.");
+			//GUI.backgroundColor = Color.blue;
+			//GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nCe n'est pas encore le moment d'appuyer.");
+			info.text = "Ce n'est pas encore le moment d'appuyer."; 
 		} else if (pressEtoActivate){
-			GUI.backgroundColor = Color.blue;
-			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nAppuyez sur E pour lancer l'experience.");
+			//GUI.backgroundColor = Color.blue;
+			//GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nAppuyez sur E pour lancer l'experience.");
+			info.text = "Appuyez sur E pour lancer l'experience."; 
 		}
 	}
 

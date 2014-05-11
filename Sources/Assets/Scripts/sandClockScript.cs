@@ -4,7 +4,7 @@ using System.Collections;
 public class sandClockScript : MonoBehaviour {
 	private bool GUIEnabled = false;
 	public GameObject particule ; // the particule system to activate to indicate the place to put the sand clock.
-
+	public GUIText info;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +19,7 @@ public class sandClockScript : MonoBehaviour {
 		if (GUIEnabled){
 			GUI.backgroundColor = Color.blue;
 			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nMaintenez Clic Droit pour prendre le sablier.");
+			info.text = "Maintenez Clic Droit pour prendre le sablier.";
 		}
 	}
 
