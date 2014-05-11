@@ -17,8 +17,8 @@ public class sandClockScript : MonoBehaviour {
 
 	void OnGUI() {
 		if (GUIEnabled){
-			GUI.backgroundColor = Color.blue;
-			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nMaintenez Clic Droit pour prendre le sablier.");
+			//GUI.backgroundColor = Color.blue;
+			//GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nMaintenez Clic Droit pour prendre le sablier.");
 			info.text = "Maintenez Clic Droit pour prendre le sablier.";
 		}
 	}

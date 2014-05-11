@@ -80,12 +80,9 @@
      <Compile Include="Assets\Scripts\BatteCSharp.cs" />
      <Compile Include="Assets\Scripts\ClosedDoor.cs" />
      <Compile Include="Assets\Scripts\CompteurDeKills.cs" />
-     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\GestionArmesCSharp.cs" />
      <Compile Include="Assets\Scripts\GestionVLum.cs" />
-     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" />
-     <Compile Include="Assets\Scripts\MunitionControl.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\StartGenerator.cs" />
