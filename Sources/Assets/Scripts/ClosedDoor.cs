@@ -6,7 +6,6 @@ using System.Collections;
 /// </summary>
 public class ClosedDoor : MonoBehaviour {
 	private bool GUIEnabled = false;
-	public GUIText info;
 
 	// Use this for initialization
 	void Start () {
@@ -20,9 +19,8 @@ public class ClosedDoor : MonoBehaviour {
 
 	void OnGUI() {
 		if (GUIEnabled){
-			//GUI.backgroundColor = Color.blue;
-			//GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nCe n'est pas le moment de partir.");
-			info.text ="Ce n'est pas le moment de partir.";
+			GUI.backgroundColor = Color.blue;
+			GUI.Box (new Rect ((Screen.width)/3,Screen.height - 200,(Screen.width)/3,60), "\nCe n'est pas le moment de partir.");
 		}
 	}
 

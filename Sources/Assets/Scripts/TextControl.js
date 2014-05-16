@@ -3,7 +3,6 @@ var isQuitButton = false;
 var isPlayButton = false;
 var isInstructionButton = false;
 
-
 function OnMouseEnter(){
 	renderer.material.color = Color.green;
 }
