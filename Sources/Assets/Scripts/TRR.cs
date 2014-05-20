@@ -8,7 +8,8 @@ using System;
  
 public class TRR 
 {
-	public static float SPEEDOFLIGHT = 6;
+	public static float c = 299792458;
+	public static float SPEEDOFLIGHT;
 	public static float MAX_SPEED_UNDER_SOL = 0.001f;
 	
 	/**

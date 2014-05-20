@@ -100,7 +100,7 @@ public class StartGenerator : MonoBehaviour {
 		lightEffect1.particleSystem.Stop();
 		audioLightEffect.audio.Stop();
 		audioAlert.audio.Stop();
-	}
+		}
 
 	/**
 	 * desactivate all printings

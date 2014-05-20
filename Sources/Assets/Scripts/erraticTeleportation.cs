@@ -19,25 +19,19 @@ public class erraticTeleportation : MonoBehaviour {
 	}
 
 	/**
-	 * launch the apparition
+	 * launch the apparition (in three steps, erraticApparition1, erraticApparition2 and erraticApparition3)
 	 * */
 	void OnTriggerEnter () {
 		gameObject.SetActive(false);
 		Invoke("erraticApparition1",4);
 	}
-
-	/// <summary>
-	/// A préciser
-	/// </summary>
+	
 	void erraticApparition1(){
 		flareLight.audio.Play();
 		flareLight.particleSystem.Play();
 		Invoke("erraticApparition2",2);
 	}
-
-	/// <summary>
-	/// A preciser
-	/// </summary>
+	
 	void erraticApparition2(){
 		flareLight.particleSystem.Stop();
 		flashLight.particleSystem.Play();
@@ -46,10 +40,7 @@ public class erraticTeleportation : MonoBehaviour {
 		mediumTank.rigidbody.AddForce(10,10,10);
 		Invoke("erraticApparition3",1);
 	}
-
-	/// <summary>
-	/// a preciser
-	/// </summary>
+	
 	void erraticApparition3(){
 		flashLight.particleSystem.Stop();
 	}

@@ -11,7 +11,15 @@ public class InfoScript : MonoBehaviour {
 	void OnGUI(){
 		if (GUISpeedOfLight) {
 			GUI.backgroundColor = Color.blue;
-			GUI.Box (new Rect(50, 20, 200, 25), "Vitesse de la lumiere : "+ TRR.SPEEDOFLIGHT);
+			GUI.Box (new Rect(20, 20, 250, 25), "Vitesse de la lumiere : "+ printSpeedOfLight());
+		}
+	}
+
+	public string printSpeedOfLight() {
+		if (TRR.SPEEDOFLIGHT == TRR.c){
+			return "~ 300 000 km/s";
+		} else {
+			return ""+ ((int) TRR.SPEEDOFLIGHT) +" m/s";
 		}
 	}
 	

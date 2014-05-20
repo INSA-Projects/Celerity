@@ -10,10 +10,8 @@ public class GestionVLum : MonoBehaviour {
 	private int ancienneV;
 	// Use this for initialization
 	void Start () {
-		
 		tab =  GameObject.FindGameObjectsWithTag("Ennemi");
 		ancienneV = tab.Length;
-		
 	}
 	
 	// Update is called once per frame
