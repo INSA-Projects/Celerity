@@ -58,7 +58,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			}
 		} else {
 			loaded = false;
-			reload();
+			if (Bonus_ammo.firstEnter)reload();
 		}
 	}
 
@@ -77,6 +77,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 		loaded = true;
 		if (nbMaxMunition==0) {
 			outOfAmmo = true;
+			Bonus_ammo.firstEnter = true;
 		}
 	}
 
