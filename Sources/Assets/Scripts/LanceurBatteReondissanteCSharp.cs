@@ -21,7 +21,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	/*nombre courant de munition*/
 	public static int nbCourantMunition= 10; 
 	// true if the gun is loaded, false if you're reloading
-	bool loaded = true;
+	public static bool loaded = true;
 	// true if the gun is out of ammo
 	bool emptyMagazine = false;
 	// true if you're totally out of ammo
@@ -50,7 +50,6 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 				nbCourantMunition -= 1;
 				if (nbCourantMunition <= 0) {
 					emptyMagazine = true;
-					reload ();
 				}
 			}
 			if (instantiatedProjectile) {
@@ -59,7 +58,8 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			}
 		} else {
 			loaded = false;
-			reload();
+			if(Bonus_ammo.ammo_detected){reload();}
+
 		}
 	}
 	
@@ -89,7 +89,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			} else if (outOfAmmo) {
 				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Plus de munitions.");
 			} else {
-				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Rechargement en cours...");
+				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Trouve des munitions.");
 			}
 		}
 	}

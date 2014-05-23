@@ -5,7 +5,7 @@ public class SpeedOfLightManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		TRR.SPEEDOFLIGHT = TRR.c;
+		TRR.SPEEDOFLIGHT = 20;
 	}
 
 	public static void increaseSpeedOfLight (float n) {
