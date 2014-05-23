@@ -1,9 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LanceurBatteReondissanteCSharp.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Effect Textures\Scripts\Rotation.cs">
     <Files>
-      <File FileName="Assets\Scripts\Bonus_ammo.cs" Line="6" Column="16" />
-      <File FileName="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" Line="80" Column="33" />
+      <File FileName="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" Line="92" Column="5" />
+      <File FileName="Assets\Scripts\HealthPlayer.js" Line="13" Column="4" />
+      <File FileName="Assets\Scripts\Bonus_script.cs" Line="4" Column="1" />
+      <File FileName="Assets\Scripts\Health_Player.cs" Line="21" Column="1" />
+      <File FileName="Assets\Scripts\Bonus_health.cs" Line="14" Column="40" />
+      <File FileName="Assets\Scripts\getCanon.cs" Line="27" Column="4" />
+      <File FileName="Assets\Effect Textures\Scripts\Rotation.cs" Line="5" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

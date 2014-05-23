@@ -21,14 +21,14 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	/*nombre courant de munition*/
 	public static int nbCourantMunition= 10; 
 	// true if the gun is loaded, false if you're reloading
-	bool loaded = true;
+	public static bool loaded = true;
 	// true if the gun is out of ammo
-	bool emptyMagazine = false;
+	public static bool emptyMagazine = false;
 	// true if you're totally out of ammo
-	bool outOfAmmo = false;
+	public static bool outOfAmmo = false;
 	// number of ammo reloaded when you reload
 	public int  reloadAmount = 10;
-	public AudioClip reloadSound; //reload soundClip	
+	public static AudioClip reloadSound; //reload soundClip	
 	public bool GUIAmmo = true;
 
 	void Start() {
@@ -58,14 +58,16 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			}
 		} else {
 			loaded = false;
-			if (Bonus_ammo.firstEnter)reload();
+			/*if (Bonus_ammo.ammo_detected){*/
+				reload();
+				/*Bonus_ammo.ammo_detected=false;*/
 		}
 	}
 
 	void reload() {
 		if (emptyMagazine && !outOfAmmo) {
 			emptyMagazine = false;
-			AudioSource.PlayClipAtPoint (reloadSound, transform.position, 1); //plays reload soundclips
+			AudioSource.PlayClipAtPoint (reloadSound, transform.position, 1);//plays reload soundclips
 			Invoke("reloading", 1.5f);
 			emptyMagazine = false;
 		}

@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\Rotation.cs" />
+     <Compile Include="Assets\Effect Textures\Scripts\Rotation_speed_5.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\Scales.cs" />
      <Compile Include="Assets\Effect Textures\Scripts\ScrollUV.cs" />
      <Compile Include="Assets\Health Script\Scripts\Assist Examples\ConnectWithKillDisplay.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\Scripts\CompteurDeKills.cs" />
      <Compile Include="Assets\Scripts\GestionArmesCSharp.cs" />
      <Compile Include="Assets\Scripts\GestionVLum.cs" />
+     <Compile Include="Assets\Scripts\Health_Player.cs" />
      <Compile Include="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
