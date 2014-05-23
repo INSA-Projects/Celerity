@@ -7,13 +7,13 @@ using System.Collections;
 public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	public AudioClip tir ;
 	public Rigidbody projectile;
-
+	
 	public int speed = 40;		
 	public int dureeDeVie = 5;	//duree de vie d'une balle
 	
 	private Rigidbody instantiatedProjectile;
 	private WiiMote wii = null;
-
+	
 	/*nombre max de munition*/
 	public int nbMaxMunition = 50;
 	/*nombre de munition à rajouter lorsque vous ramassez des munitions*/
@@ -21,21 +21,21 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	/*nombre courant de munition*/
 	public static int nbCourantMunition= 10; 
 	// true if the gun is loaded, false if you're reloading
-	public static bool loaded = true;
+	bool loaded = true;
 	// true if the gun is out of ammo
-	public static bool emptyMagazine = false;
+	bool emptyMagazine = false;
 	// true if you're totally out of ammo
-	public static bool outOfAmmo = false;
+	bool outOfAmmo = false;
 	// number of ammo reloaded when you reload
 	public int  reloadAmount = 10;
-	public static AudioClip reloadSound; //reload soundClip	
+	public AudioClip reloadSound; //reload soundClip	
 	public bool GUIAmmo = true;
-
+	
 	void Start() {
 		if(wii == null)
 			wii = GameObject.Find("First Person Controller").GetComponent<WiiMote>();
 	}
-
+	
 	void Update(){
 		if(wii == null) {
 			wii = GameObject.Find("First Person Controller").GetComponent<WiiMote>();
@@ -50,6 +50,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 				nbCourantMunition -= 1;
 				if (nbCourantMunition <= 0) {
 					emptyMagazine = true;
+					reload ();
 				}
 			}
 			if (instantiatedProjectile) {
@@ -58,16 +59,14 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			}
 		} else {
 			loaded = false;
-			/*if (Bonus_ammo.ammo_detected){*/
-				reload();
-				/*Bonus_ammo.ammo_detected=false;*/
+			reload();
 		}
 	}
-
+	
 	void reload() {
 		if (emptyMagazine && !outOfAmmo) {
 			emptyMagazine = false;
-			AudioSource.PlayClipAtPoint (reloadSound, transform.position, 1);//plays reload soundclips
+			AudioSource.PlayClipAtPoint (reloadSound, transform.position, 1); //plays reload soundclips
 			Invoke("reloading", 1.5f);
 			emptyMagazine = false;
 		}
@@ -79,10 +78,9 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 		loaded = true;
 		if (nbMaxMunition==0) {
 			outOfAmmo = true;
-			Bonus_ammo.firstEnter = true;
 		}
 	}
-
+	
 	void OnGUI () {
 		if (GUIAmmo){
 			GUI.backgroundColor = Color.blue;
