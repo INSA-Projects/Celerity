@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\Bonus_script.cs" />
      <Compile Include="Assets\Scripts\ClosedDoor.cs" />
      <Compile Include="Assets\Scripts\CompteurDeKills.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\GestionArmesCSharp.cs" />
      <Compile Include="Assets\Scripts\GestionVLum.cs" />
      <Compile Include="Assets\Scripts\Health_Player.cs" />

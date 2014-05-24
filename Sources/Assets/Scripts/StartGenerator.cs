@@ -67,6 +67,10 @@ public class StartGenerator : MonoBehaviour {
 				generator.audio.Play();
 				// disable the button
 				Invoke("desactivate", clickButton.length);
+
+				// launch the dialogue
+				DialogueManager.changeDialogue(2);
+
 				// start the teleportation
 				vortexLightEffect.particleSystem.Play();
 				lightEffect1.particleSystem.Play();
