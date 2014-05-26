@@ -61,6 +61,7 @@
      <Compile Include="Assets\Health Script\Scripts\Other Examples\RestartScene.cs" />
      <Compile Include="Assets\Health Script\Scripts\Other Examples\Shoot.cs" />
      <Compile Include="Assets\Health Script\Scripts\Ownership\Owner.cs" />
+     <Compile Include="Assets\Item_prefab\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\MiddleVR_FirstPersonController\VRFPSInputController.cs" />
      <Compile Include="Assets\Monster2pack\Scripts\Ventilation.cs" />
      <Compile Include="Assets\OpenRelativity\GameState.cs" />
@@ -79,18 +80,24 @@
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\BatteCSharp.cs" />
      <Compile Include="Assets\Scripts\Bonus_Count.cs" />
+     <Compile Include="Assets\Scripts\Bonus_ammo.cs" />
+     <Compile Include="Assets\Scripts\Bonus_health.cs" />
      <Compile Include="Assets\Scripts\Bonus_script.cs" />
      <Compile Include="Assets\Scripts\ClosedDoor.cs" />
      <Compile Include="Assets\Scripts\CompteurDeKills.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\GestionArmesCSharp.cs" />
      <Compile Include="Assets\Scripts\GestionVLum.cs" />
+     <Compile Include="Assets\Scripts\Health_Player.cs" />
      <Compile Include="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />
+     <Compile Include="Assets\Scripts\Rotation_speed_5.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\StartGenerator.cs" />
      <Compile Include="Assets\Scripts\SynchroTirCSharp.cs" />
      <Compile Include="Assets\Scripts\TRR.cs" />
      <Compile Include="Assets\Scripts\TextControl.cs" />
+     <Compile Include="Assets\Scripts\Turret_script.cs" />
      <Compile Include="Assets\Scripts\changeMusic.cs" />
      <Compile Include="Assets\Scripts\copterExplosion.cs" />
      <Compile Include="Assets\Scripts\crashingCopter.cs" />
@@ -146,6 +153,7 @@
      <None Include="Assets\license.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
      <None Include="Assets\Urban_Props\readme.txt" />
+     <None Include="Assets\Damaged_old_transporters\readme.txt" />
  <Reference Include="MiddleVR_dotNet">
  <HintPath>Assets\ZombieCharacterPack\MiddleVR\MiddleVR_dotNet.dll</HintPath>
  </Reference>

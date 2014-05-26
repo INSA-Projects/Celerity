@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LanceurBatteReondissanteCSharp.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Turret_script.cs">
     <Files>
-      <File FileName="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" Line="56" Column="33" />
+      <File FileName="Assets\Scripts\Turret_script.cs" Line="26" Column="19" />
+      <File FileName="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" Line="53" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

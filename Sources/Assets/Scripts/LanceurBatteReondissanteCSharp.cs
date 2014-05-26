@@ -15,9 +15,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 	private WiiMote wii = null;
 
 	/*nombre max de munition*/
-	public int nbMaxMunition = 50;
-	/*nombre de munition à rajouter lorsque vous ramassez des munitions*/
-	public int nbMunitionRecharge = 10;
+	public static int nbMaxMunition = 10;
 	/*nombre courant de munition*/
 	public static int nbCourantMunition= 10; 
 	// true if the gun is loaded, false if you're reloading
@@ -58,6 +56,9 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			}
 		} else {
 			loaded = false;
+			if (nbMaxMunition > 0) {
+				outOfAmmo = false;
+			}
 			reload();
 		}
 	}
@@ -86,7 +87,7 @@ public class LanceurBatteReondissanteCSharp : MonoBehaviour {
 			if(nbCourantMunition>0){
 				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Munitions : "+ nbCourantMunition+"/"+nbMaxMunition);
 			} else if (outOfAmmo) {
-				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Plus de munitions.");
+				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Pas de munitions.");
 			} else {
 				GUI.Box (new Rect (Screen.width-250, 20, 200, 25), "Rechargement en cours...");
 			}

@@ -2,7 +2,7 @@
 using System.Collections;
 
 /// <summary>
-/// Gestion de la musique d'ambience
+/// Gestion de la musique d'ambiance
 /// </summary>
 public class AudioManager : MonoBehaviour {
 	public GameObject[] musics; //contains the musics

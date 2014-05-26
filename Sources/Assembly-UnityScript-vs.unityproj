@@ -91,6 +91,7 @@
      <None Include="Assets\license.txt" />
      <None Include="Assets\KBH_character\Readme.txt" />
      <None Include="Assets\Urban_Props\readme.txt" />
+     <None Include="Assets\Damaged_old_transporters\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

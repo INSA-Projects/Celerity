@@ -16,16 +16,12 @@ public class teleportation : MonoBehaviour {
 	void Update () {
 	}
 
-	void OnTriggerEnter (Collider col) {
-		if (col.gameObject.tag == "sand_clock") {
-			StartGenerator.sandClockInTeleport = true;
-		}
-	}
 
 	void OnTriggerStay (Collider col) {
 		// if the player releases the sandclock in the teleporter 
 		if ((col.gameObject.tag == "sand_clock") && !(AttraperCSharp.objetSaisi)){
 			levitatingObject = col.gameObject ;
+			StartGenerator.sandClockInTeleport = true;
 
 			// move the sandclock to the teleporter center
 			Vector3 teleportCenter = absorber.transform.position;
@@ -39,6 +35,11 @@ public class teleportation : MonoBehaviour {
 		// if the player releases the sandclock in the teleporter 
 		if (col.gameObject.tag == "sand_clock"){
 			StartGenerator.sandClockInTeleport = false;
+		} else {
+			if (StartGenerator.sandClockInTeleport == true){
+				//launch the dialogue
+				DialogueManager.changeDialogue(1);
+			}
 		}
 	}
 
