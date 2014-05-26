@@ -52,7 +52,6 @@
      <Compile Include="Assets\IA\Ennemis\IaEnnemis.js" />
      <Compile Include="Assets\KBH_character\Scripts\3rd person\Idle_Cam.js" />
      <Compile Include="Assets\Monster2pack\Scripts\UVScroller.js" />
-     <Compile Include="Assets\OpenRelativity\testPointContact.js" />
      <Compile Include="Assets\Scripts\Attraper.js" />
      <Compile Include="Assets\Scripts\Batte.js" />
      <Compile Include="Assets\Scripts\Collision.js" />
