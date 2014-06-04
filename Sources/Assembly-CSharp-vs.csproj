@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\GestionArmesCSharp.cs" />
      <Compile Include="Assets\Scripts\GestionVLum.cs" />
+     <Compile Include="Assets\Scripts\GetDetected.cs" />
      <Compile Include="Assets\Scripts\Health_Player.cs" />
      <Compile Include="Assets\Scripts\LanceurBatteReondissanteCSharp.cs" />
      <Compile Include="Assets\Scripts\PorteCSharp.cs" />
@@ -97,6 +98,7 @@
      <Compile Include="Assets\Scripts\SynchroTirCSharp.cs" />
      <Compile Include="Assets\Scripts\TRR.cs" />
      <Compile Include="Assets\Scripts\TextControl.cs" />
+     <Compile Include="Assets\Scripts\Turret_script.cs" />
      <Compile Include="Assets\Scripts\changeMusic.cs" />
      <Compile Include="Assets\Scripts\copterExplosion.cs" />
      <Compile Include="Assets\Scripts\crashingCopter.cs" />
@@ -125,8 +127,10 @@
      <Compile Include="Assets\ZombieCharacterPack\MiddleVR\Scripts\Samples\VRCalibrateTrackerYaw.cs" />
      <Compile Include="Assets\ZombieCharacterPack\MiddleVR\Scripts\Samples\VRInteractionTest.cs" />
      <Compile Include="Assets\ZombieCharacterPack\MiddleVR\Scripts\Samples\VRVirtualTrackerMapping.cs" />
+     <Compile Include="Assets\bullet.cs" />
      <Compile Include="Assets\deplacement\Interaction.cs" />
      <Compile Include="Assets\deplacement\WiiMote.cs" />
+     <Compile Include="Assets\turret_destroy.cs" />
      <None Include="Assets\KBH_character\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\KBH_character\Materials\HiPoly\NewShader.shader" />
      <None Include="Assets\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />

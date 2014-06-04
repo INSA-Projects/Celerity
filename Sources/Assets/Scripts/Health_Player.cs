@@ -6,10 +6,7 @@ public class Health_Player : MonoBehaviour {
 	// GUI enabler
 	bool GUIEnabled = false;
 
-	void OnCollisionEnter(Collision other){
-		if (other.gameObject.tag == "Ennemi") {
-			vie_courant -= 1;
-		}
+	void Update () {
 		if (vie_courant <=0 ){
 			Application.LoadLevel("GameOver");
 		}

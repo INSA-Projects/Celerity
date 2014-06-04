@@ -19,7 +19,9 @@ void OnMouseUp(){
 		Application.Quit();
 	}
 	if(isPlayButton){
-			timer.time = 20;
+			timer.time = 300;
+			Health_Player.vie_courant = 5;
+			LanceurBatteReondissanteCSharp.nbMaxMunition = 10;
 			Application.LoadLevel(0);
 	}
 	if(isInstructionButton){

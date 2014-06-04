@@ -25,7 +25,8 @@ public class StartGenerator : MonoBehaviour {
 	public GameObject player;					// the player
 	public GameObject spawnPoint;				// where the player will be teleported
 
-	public GUIText info;
+	public GameObject porte ;					// the door of the room to unlock when the player active the button
+	
 	void Start (){
 	}
 	
@@ -104,6 +105,10 @@ public class StartGenerator : MonoBehaviour {
 		lightEffect1.particleSystem.Stop();
 		audioLightEffect.audio.Stop();
 		audioAlert.audio.Stop();
+
+		// unlock the door
+		porte.GetComponent<ClosedDoor>().enabled = false;
+		porte.GetComponent<PorteCSharp>().enabled = true;
 		}
 
 	/**

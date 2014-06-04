@@ -20,7 +20,7 @@ public class Bonus_ammo : MonoBehaviour {
 			bulletShape1.renderer.enabled = false;
 			bulletShape2.renderer.enabled = false;
 			Invoke("destroy",5);
-			}
+		}
 	}
 
 	void destroy() {
